@@ -46,6 +46,6 @@ Trained Model Weight:
 
 Download the weight or use your trained model weight to test
 ```commandline
-python -W ignore train_synapse.py --saved_model_path /path/to/best/model/weight      # replace --saved_model_path argument with actual path
+python -W ignore test_synapse.py --saved_model_path /path/to/best/model/weight      # replace --saved_model_path argument with actual path
 ```
 After completion of testing, check the ``test_log`` directory to get the test result.
