@@ -4,13 +4,21 @@ Official pytorch implementation of Efficient Dual-line Decoder with Multi-Scale 
 ## Architecture
 ![Overall architecture of EDLDNet](/images/Architecture.png "Overall Architecture of EDLDNet")
 
+*Fig: Overall architecture of EDLDNet*
+
 ## Compare different segmentation model with Dice Score vs MACs count
 ![Compare model with Dice Score vs MACs count](/images/macs_vs_dice_different_markers.png "Compare different segmentation model with Dice Score vs MACs count")
+
+*Fig: Dice score vs MACs count for different segmentation methods over synapse dataset.*
 
 ## Qualitative Results
 ![Qualitative results for synapse dataset](/images/output_synapse.png "Qualitative results for synapse dataset")
 
-## Quantitative Research
+*Fig: The comparison of contoured segmentation images from Synapse dataset among proposed method and the competitive existing methods.*
+
+## Quantitative Results
+*Table: The segmentation performance of abdominal organs on the Synapse Multi-organ dataset is evaluated. Dice scores reported for each organ individually.*
+
 | Method          | MACs ↓ | DICE % ↑  | mIoU % ↑  | Aorta     | GB        | KL        | KR        | Liver     | PC        | SP        | SM        |
 | --------------- | ------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | UNet            | 54.77G | 70.11     | 59.39     | 84.00     | 56.70     | 72.41     | 62.64     | 86.98     | 48.73     | 81.48     | 67.96     |
