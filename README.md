@@ -1,6 +1,8 @@
 # EDLDNet
 Official pytorch implementation of Efficient Dual-line Decoder with Multi-Scale Convolutional Attention for Multi Organ segmentation.
 
+[DOI](https://doi.org/10.1016/j.bspc.2025.108611) | [PDF](https://authors.elsevier.com/c/1lmTx_djyJXjq2)
+
 ## Architecture
 ![Overall architecture of EDLDNet](/images/Architecture.png "Overall Architecture of EDLDNet")
 
@@ -55,3 +57,18 @@ Download the weight or use your trained model weight to test
 python -W ignore test_synapse.py --saved_model_path /path/to/best/model/weight      # replace --saved_model_path argument with actual path
 ```
 After completion of testing, check the ``test_log`` directory to get the test result.
+
+### Cite this work
+```
+@article{HASSAN2026108611,
+    title = {An efficient dual-line decoder network with multi-scale convolutional attention for multi-organ segmentation},
+    journal = {Biomedical Signal Processing and Control},
+    volume = {112},
+    pages = {108611},
+    year = {2026},
+    issn = {1746-8094},
+    doi = {https://doi.org/10.1016/j.bspc.2025.108611},
+    url = {https://www.sciencedirect.com/science/article/pii/S174680942501122X},
+    author = {Riad Hassan and M. Rubaiyat Hossain Mondal and Sheikh Iqbal Ahamed and Fahad Mostafa and Md Mostafijur Rahman}
+}
+```
