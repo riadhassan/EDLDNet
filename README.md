@@ -1,7 +1,12 @@
 # EDLDNet
-Official pytorch implementation of Efficient Dual-line Decoder with Multi-Scale Convolutional Attention for Multi Organ segmentation.
+Official pytorch implementation of **Efficient Dual-line Decoder with Multi-Scale Convolutional Attention for Multi Organ segmentation** which is published in _Biomedical Signal Processing and Control_ Journal.
 
-[DOI](https://doi.org/10.1016/j.bspc.2025.108611) | [PDF](https://authors.elsevier.com/c/1lmTx_djyJXjq2)
+DOI: [https://doi.org/10.1016/j.bspc.2025.108611](https://doi.org/10.1016/j.bspc.2025.108611)
+
+PDF: [Read the paper](https://authors.elsevier.com/c/1lmTx_djyJXjq2)
+
+### Authors
+[Riad Hassan](https://riadhassan.github.io/), [M. Rubaiyat Hossain Mondal](https://iict.buet.ac.bd/?page_id=106), [Sheikh Iqbal Ahamed](https://www.marquette.edu/computer-science/directory/iqbal-ahamed.php), [Fahad Mostafa](https://search.asu.edu/profile/5192026), [Md Mostafijur Rahman](https://mostafij-rahman.github.io/) 
 
 ## Architecture
 ![Overall architecture of EDLDNet](/images/Architecture.png "Overall Architecture of EDLDNet")
@@ -58,7 +63,11 @@ python -W ignore test_synapse.py --saved_model_path /path/to/best/model/weight  
 ```
 After completion of testing, check the ``test_log`` directory to get the test result.
 
-### Cite this work
+### Acknowledgement
+We sincerely acknowledge and deeply appreciate the outstanding contributions of [timm](https://github.com/huggingface/pytorch-image-models), 
+[TransUNet](https://github.com/Beckschen/TransUNet), [EMCAD](https://github.com/SLDGroup/EMCAD) and [UDBANet](https://github.com/riadhassan/UDBA-UNet), whose remarkable works have laid the foundation for the development of our framework.
+
+## Cite this work
 ```
 @article{HASSAN2026108611,
     title = {An efficient dual-line decoder network with multi-scale convolutional attention for multi-organ segmentation},
